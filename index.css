@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(14, 14, 96);
+    font-size: 40px;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(181, 212, 240);
+}
+
+h2 {
+    color: rgb(176, 19, 19);
+}
+
+/* insertion of background image
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/047/573/699/small/open-blank-book-with-white-pages-photo.jpg');
+} */
+
+div {
+    font-size: large;
+    font-weight: 700;
+}
+
+/* id selector tag, id=head */
+#head {
+    font-style: italic;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* grouping 2 tags */
+ul,
+ol {
+    font-size: larger;
+}
