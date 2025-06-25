@@ -1,0 +1,23 @@
+/* *{ 
+    background-color: rgb(247, 225, 229);
+} */
+#signn {
+font-size: large;
+font-family: 'Arial Narrow';
+}
+#whole {
+    background-color: rgb(242, 205, 211);
+    width: 450px;
+    margin: 5px 5px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#para spam{
+    font-style: italic;
+}
