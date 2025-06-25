@@ -23,8 +23,8 @@ div {
     font-weight: 700;
 }
 
-/* id selector tag, id=head */
-#head {
+/* id selector tag, id=head,,, use of span to select a certain word only*/
+#head span{
     font-style: italic;
     font-size: 25px;
     text-shadow: 3px 3px 5px rgb(168, 41, 196);
