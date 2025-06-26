@@ -2,15 +2,18 @@
     background-color: rgb(247, 225, 229);
 } */
 #signn {
-font-size: large;
-font-family: 'Arial Narrow';
+    font-size: large;
+    font-family: 'Arial Narrow';
+    color: rgb(75, 44, 44);
+    text-decoration: underline;
 }
+
 #whole {
     background-color: rgb(242, 205, 211);
     width: 450px;
-    margin: 5px 5px;
+    margin: 10px 10px;
     padding: 20px 20px;
-    border-radius: 50px;
+    border-radius: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,10 +21,15 @@ font-family: 'Arial Narrow';
     text-align: center;
 }
 
-#para spam{
+#para {
+    font-style: italic;
+    color: rgb(82, 39, 114);
+}
+
+#whole span {
     font-style: italic;
 }
 
-#whole span{
-   font-style: italic;
+#head {
+    text-shadow: 5px 5px 5px rgb(184, 75, 75);
 }

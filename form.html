@@ -9,28 +9,35 @@
 </head>
 <div id="whole">
     <div id="signn">
-    <h1>SIGN UP</h1>
+        <h1>SIGN UP</h1>
     </div>
-    <form action="index.html">
-            <p> Join BOOKNest to access thousands of books anytime, anywhere. <br>  
-            </p>
+    <div id="head">
+        <p> Join BOOKNest to access thousands of books anytime, anywhere. <br>
+        </p>
+    </div>
 
-        <body>
+    <body>
+        <form action="index.html">
             <label> <span> Full Name</span> </label><br>
             <input type="name" placeholder="Your FULL NAME" required name="name">
             <br><br>
+
             <label><span>EMAIL</span></label><br>
             <input type="email" placeholder="Enter Your Email Here!" required name="email">
             <br><br>
+
             <label> <span>Phone Number </span></label><br>
             <input type="number" placeholder="Enter Your Number" length="10" name="Phonenumber">
             <br><br>
+
             <label><span>Password</span></label><br>
             <input type="password" placeholder="Enter Your Password" required minlength="6" name="password">
             <br><br>
+
             <label><span>Birthdate</span></label><br>
             <input type="date" name="date">
             <br><br>
+
             <label><span>GENDER</span></label><br>
             <input type="radio" id="Male" value="Male" name="GENDER">
             <label>Male</label>
@@ -39,17 +46,33 @@
             <input type="radio" id="Other" value="Other" name="GENDER">
             <label>Other</label>
             <br><br>
+
+            <label>Select Your COUNTRY</label><br>
+            <select name="COUNTRY" id="COUNTRY">
+                <option value="" disabled selected>Country Name</option>
+                <option value="np">Nepal</option>
+                <option value="in">India</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="cn">China</option>
+            </select>
+            <br><br>
+
             <label><span>Your E-card</span></label><br>
             <input type="file" name="file">
             <br><br>
+
             <input type="reset">
             <br><br><br><br>
+            
             <input type="submit" value="Sign Up">
 
-            <div id="para"><p> <span>"Sign up now to start reading and borrowing
-                    with just a few clicks!"</span> </p></div>
-        </body>
-    </form>
+            <div id="para">
+                <p>"Sign up now to start reading and borrowing
+                    with just a few clicks!"</p>
+            </div>
+        </form>
+    </body>
 </div>
 
 </html>
