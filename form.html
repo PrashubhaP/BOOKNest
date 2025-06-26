@@ -16,28 +16,38 @@
             </p>
 
         <body>
-            <label> Full Name </label><br>
-            <input type="name" placeholder="Your FULL NAME" required>
+            <label> <span> Full Name</span> </label><br>
+            <input type="name" placeholder="Your FULL NAME" required name="name">
             <br><br>
-            <label>EMAIL</label><br>
+            <label><span>EMAIL</span></label><br>
             <input type="email" placeholder="Enter Your Email Here!" required name="email">
             <br><br>
-            <label> Phone Number </label><br>
-            <input type="number" placeholder="Enter Your Number" minlength="10" name="Phonenumber">
+            <label> <span>Phone Number </span></label><br>
+            <input type="number" placeholder="Enter Your Number" length="10" name="Phonenumber">
             <br><br>
-            <label>Password</label><br>
+            <label><span>Password</span></label><br>
             <input type="password" placeholder="Enter Your Password" required minlength="6" name="password">
             <br><br>
-            <label>Birthdate</label><br>
+            <label><span>Birthdate</span></label><br>
             <input type="date" name="date">
             <br><br>
-            <label>Your E-card</label><br>
+            <label><span>GENDER</span></label><br>
+            <input type="radio" id="Male" value="Male" name="GENDER">
+            <label>Male</label>
+            <input type="radio" id="Female" value="Female" name="GENDER">
+            <label>Female</label>
+            <input type="radio" id="Other" value="Other" name="GENDER">
+            <label>Other</label>
+            <br><br>
+            <label><span>Your E-card</span></label><br>
             <input type="file" name="file">
+            <br><br>
+            <input type="reset">
             <br><br><br><br>
             <input type="submit" value="Sign Up">
 
-            <div id="para"><p> <spam>"Sign up now to start reading and borrowing
-                    with just a few clicks!"</spam> </p></div>
+            <div id="para"><p> <span>"Sign up now to start reading and borrowing
+                    with just a few clicks!"</span> </p></div>
         </body>
     </form>
 </div>

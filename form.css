@@ -21,3 +21,7 @@ font-family: 'Arial Narrow';
 #para spam{
     font-style: italic;
 }
+
+#whole span{
+   font-style: italic;
+}
